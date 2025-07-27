@@ -1,0 +1,21 @@
+# Step 1: Add a plant
+python cli.py --add Fern Lily
+
+# Step 2: Water using AI agent
+python cli.py --water --agent
+
+# Step 3: See history and output
+python cli.py
+
+# Step 4: Plot
+python cli.py --plot
+
+#Step 5: Simulation to see all plants
+python main.py --simulate 
+python main.py --simulate --apikey YOUR_API_KEY
+
+
+#to Run and get weather test
+pytest test_weather.py 
+# include logging in console
+pytest test_weather.py -s 
